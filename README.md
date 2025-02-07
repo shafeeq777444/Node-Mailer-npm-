@@ -3,13 +3,12 @@
 
 ### **README.md**  
 
-
 # 📧 NodeMailer Email Sender  
 
-A simple Node.js application that sends emails using **Nodemailer** with Gmail authentication.  
+A simple Node.js application that sends emails using **Nodemailer** with Gmail authentication.
 
 ## 🚀 Features  
-- Send emails using Gmail.  
+- Send emails using Gmail securely.  
 - Supports **HTML templates** for colorful emails.  
 - Uses **dotenv** for secure environment variables.  
 
@@ -17,7 +16,7 @@ A simple Node.js application that sends emails using **Nodemailer** with Gmail a
 
 1. Clone this repository:  
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/shafeeq777444/Node-Mailer-npm-.git
    ```
 2. Navigate to the project directory:  
    ```sh
@@ -33,6 +32,16 @@ A simple Node.js application that sends emails using **Nodemailer** with Gmail a
    PASS=your-app-password
    ```
 
+## 🔐 Setting Up an App Password  
+
+1. Go to [Google Account Security](https://myaccount.google.com/security).  
+2. Scroll down to the **Signing in to Google** section.  
+3. Enable **2-Step Verification** if it's not enabled.  
+4. After enabling, go back to **Signing in to Google** and click on **App Passwords**.  
+5. Select **Mail** and **Other (custom name)**.  
+6. Generate an **App Password** (Google will provide a 16-character password).  
+7. Use this generated password instead of your regular password in the `.env` file.  
+
 ## 📩 Sending an Email  
 
 1. Run the server:  
@@ -45,7 +54,6 @@ A simple Node.js application that sends emails using **Nodemailer** with Gmail a
    ```
 
 ## 📝 Environment Variables  
-Make sure you set up an **App Password** for Gmail (if using Gmail) and store it in the `.env` file.  
 
 - `EMAIL`: Your Gmail address  
 - `PASS`: Your Gmail app password  
