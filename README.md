@@ -3,7 +3,6 @@
 
 ### **README.md**  
 
-sh stands for Shell
 
 # 📧 NodeMailer Email Sender  
 
